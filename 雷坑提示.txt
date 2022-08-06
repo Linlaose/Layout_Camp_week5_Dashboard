@@ -1,0 +1,1 @@
+在 base/common.scss 下，有指定 span 標籤的顏色，若照著 google font 的建議使用 material icon 搭配著 span 標籤的話，外層 li 的 hover 顏色效果會無法顯示

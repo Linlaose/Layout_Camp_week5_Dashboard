@@ -16,8 +16,17 @@
   border: 1px solid #CED4DA;
 }
 
+.border-3sides-gray-400{
+  border: 1px solid #CED4DA;
+  border-top: 0;
+}
+
 .border-bottom-black-900{
   border-bottom: 1px solid #212529;
+}
+
+.border-top-gray-400 {
+  border-top: 1px solid #CED4DA;
 }
 
 .border-bottom-gray-400{
@@ -34,6 +43,27 @@
 
 .border-left-transparent{
   border-left: 4px solid transparent;
+}
+
+// width
+.mailbox-width{
+  width: 35%;
+}
+
+.email-width{
+  width: 63%;
+}
+
+.mail-img-emily-width{
+  width: 28%;
+}
+.mail-img-andy-width{
+  width: 15%;
+}
+
+// alignments
+.align-super{
+  vertical-align: super;
 }
 
 // a class
@@ -68,6 +98,24 @@
   }
 }
 
+.hover-bg-gray{
+  &:hover {
+    background-color: #F8F9FA;
+  }
+}
+
+.hover-pointer{
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.hover-pointer-tranform{
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
 // extensions
 .profile-picture{
   width: 40px;
@@ -77,4 +125,8 @@
 
 .nav {
   display: block;
+}
+
+.mail-content-gap{
+  gap: 8px;
 }

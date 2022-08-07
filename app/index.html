@@ -5,4 +5,179 @@ engine: ejs
 current: index
 ---
 
-<div></div>
+<div class="header d-flex justify-content-between align-items-center pb-8">
+  <div class="text d-flex align-items-center">
+    <h1 class="text-capitalize">assignment</h1>
+    <h2 class="text-capitalize m-0 ps-12">all courses</h2>
+    <i class="material-icons success hover-pointer hover-pointer-tranform ms-2"
+      >keyboard_arrow_down</i
+    >
+  </div>
+  <div class="icon d-flex">
+    <i class="material-icons hover-pointer hover-pointer-tranform">search</i>
+    <i class="ms-6 material-icons hover-pointer hover-pointer-tranform"
+      >notifications_active</i
+    >
+  </div>
+</div>
+
+<div class="content d-flex justify-content-between mt-3">
+  <div class="mailbox mailbox-width">
+    <h2 class="d-flex align-items-center text-capitalize m-0">
+      All (4)
+      <i class="material-icons hover-pointer hover-pointer-tranform ps-2"
+        >keyboard_arrow_down</i
+      >
+    </h2>
+    <ul
+      class="list-unstyled border-gray-400 border-top-radius border-bottom-radius mt-1p5"
+    >
+      <li class="p-3 hover-pointer hover-bg-gray">
+        <h3 class="d-flex justify-content-between text-capitalize m-0 pb-1">
+          chapter assignment 2<time class="text-lowercase">4 hrs ago</time>
+        </h3>
+        <h2 class="d-flex justify-content-between align-items-center m-0">
+          Please check this file…<span class="text-capitalize">emily wang</span>
+        </h2>
+      </li>
+      <li class="p-3 border-top-gray-400 hover-pointer hover-bg-gray">
+        <h3 class="d-flex justify-content-between text-capitalize m-0 pb-1">
+          chapter assignment 1<time class="text-lowercase">12 hrs ago</time>
+        </h3>
+        <h2
+          class="d-flex justify-content-between align-items-center m-0 text-capitalize"
+        >
+          my homework<span class="text-capitalize">david xu</span>
+        </h2>
+      </li>
+      <li class="p-3 border-top-gray-400 hover-pointer hover-bg-gray">
+        <h3 class="d-flex justify-content-between text-capitalize m-0 pb-1">
+          final assignment<time class="text-lowercase">18 hrs ago</time>
+        </h3>
+        <h2 class="d-flex justify-content-between align-items-center m-0">
+          Have a problem with this...<span class="text-capitalize"
+            >tony wei</span
+          >
+        </h2>
+      </li>
+      <li class="p-3 border-top-gray-400 hover-pointer hover-bg-gray">
+        <h3 class="d-flex justify-content-between text-capitalize m-0 pb-1">
+          final assignment<time class="text-lowercase">19 hrs ago</time>
+        </h3>
+        <h2 class="d-flex justify-content-between align-items-center m-0">
+          Did I do it right?<span class="text-capitalize">christina lin</span>
+        </h2>
+      </li>
+    </ul>
+  </div>
+  <div class="email email-width">
+    <div class="comment-numbers text-end">
+      <span>2 comments</span>
+    </div>
+    <div class="mail-content mt-1">
+      <div
+        class="title d-flex justify-content-between align-items-center py-3 px-4 bg-gray border-gray-400 border-top-radius"
+      >
+        <div class="title-text">
+          <h3 class="m-0">Chapter Assignment 2 / HTML & CSS</h3>
+          <h2 class="m-0">Please check this file for me, thanks!</h2>
+        </div>
+        <i class="material-icons hover-pointer hover-pointer-tranform"
+          >more_vert</i
+        >
+      </div>
+      <ul
+        class="list-unstyled py-4 ps-4 pe-8 border-3sides-gray-400 border-bottom-radius"
+      >
+        <li class="d-flex mail-content-gap">
+          <div class="content-img mail-img-emily-width">
+            <img
+              class="my-img profile-picture rounded-circle"
+              src="./assets/images/emilywang.jpeg"
+              alt="Emily Wang"
+            />
+          </div>
+          <div class="content-text">
+            <h2 class="text-capitalize m-0">
+              emily wang<span class="d-block">10:38 AM (4 hours ago)</span>
+            </h2>
+            <p>
+              Hi Teacher, the attached file is my homework of chapter 2. And
+              here comes a question: Why in the following code the height of the
+              <mark>div</mark> is bigger than the height of the
+              <mark>img</mark> ? There is a gap below the image, but it doesn’t
+              seems to be a padding/margin. What is the gap or extra space below
+              image?
+            </p>
+            <div
+              class="attachment d-inline-block align-items-center py-2 px-3 border-gray-400 border-top-radius border-bottom-radius hover-bg-gray hover-pointer"
+            >
+              <i class="material-icons">attach_file</i>
+              <h2 class="d-inline-block m-0 align-super">HW-2-Davide.zip</h2>
+            </div>
+          </div>
+        </li>
+        <li class="d-flex mail-content-gap mt-4 pt-4 border-top-gray-400">
+          <div class="content-img mail-img-andy-width">
+            <img
+              class="my-img profile-picture rounded-circle"
+              src="./assets/images/andychen.jpeg"
+              alt="Emily Wang"
+            />
+          </div>
+          <div class="content-text">
+            <div class="info d-flex justify-content-between align-items-center">
+              <div class="text">
+                <h2 class="text-capitalize m-0">
+                  andy chen (you)<span class="d-block"
+                    >13:24 AM (1 hours ago)</span
+                  >
+                </h2>
+              </div>
+              <div class="icon">
+                <i class="material-icons hover-pointer hover-pointer-tranform"
+                  >star_border</i
+                >
+                <i
+                  class="material-icons hover-pointer hover-pointer-tranform ms-6"
+                  >edit</i
+                >
+              </div>
+            </div>
+            <p>
+              Hi David, by default, an image is rendered inline, like a letter
+              so it sits on the same line that a, b, c and d sit on. There is
+              space below that line for the<br />descenders you find on letters
+              like g, j, p and q.<br /><br />You can:<br /><br />　• adjust the
+              <mark>vertical-align</mark> of the image to position it elsewhere
+              (e.g. the <mark>middle</mark> ) or<br />　• change the
+              <mark>display</mark> so it isn’t inline.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div
+        class="btn-block d-flex justify-content-between align-items-center mt-4"
+      >
+        <div class="icon">
+          <i
+            class="material-icons hover-pointer hover-pointer-tranform align-text-bottom"
+            >chevron_left</i
+          >
+          <i
+            class="material-icons hover-pointer hover-pointer-tranform align-text-bottom ms-6"
+            >navigate_next</i
+          >
+        </div>
+        <div class="functional-btn">
+          <button>
+            <a class="btn-a-link" href="#">Mark as read</a>
+          </button>
+          <button class="ms-4">
+            <a class="btn-a-link" href="reply.html">Reply</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

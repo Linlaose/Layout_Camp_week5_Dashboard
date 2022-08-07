@@ -61,6 +61,21 @@
   width: 15%;
 }
 
+// gap
+.mail-content-gap {
+  gap: 8px;
+}
+.text-editor-icon-gap {
+  gap: 24px;
+}
+
+// position
+.reply-btn-position{
+  position: absolute;
+  bottom: 22px;
+  right: 24px;
+}
+
 // alignments
 .align-super{
   vertical-align: super;
@@ -79,6 +94,13 @@
   &:hover {
     color: #FFFFFF;
     background-color: #198754;
+  }
+}
+
+.a-text-dark{
+  color: #212529;
+  &:hover{
+    color: #198754;
   }
 }
 
@@ -125,8 +147,4 @@
 
 .nav {
   display: block;
-}
-
-.mail-content-gap{
-  gap: 8px;
 }

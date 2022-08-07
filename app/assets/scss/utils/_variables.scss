@@ -1,6 +1,7 @@
 $spacer: 1rem;
 $spacers: (
   0: 0,
+  0p5: $spacer * 0.125, /* 2px */
   1: $spacer * 0.25, /* 4px */
   1p5: $spacer * 0.375, /* 6px */
   2: $spacer * 0.5, /* 8px */

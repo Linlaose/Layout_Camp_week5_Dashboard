@@ -1,1 +1,1 @@
-{"version":3,"sources":["all.js"],"names":["bootstrap","require"],"mappings":";;AAAA,IAAMA,SAAS,GAAGC,OAAO,CAAC,WAAD,CAAzB","file":"all.js","sourcesContent":["const bootstrap = require('bootstrap');"]}
+{"version":3,"sources":["all.js"],"names":[],"mappings":"AAAA","file":"all.js","sourcesContent":[""]}

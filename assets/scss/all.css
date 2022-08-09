@@ -11684,14 +11684,23 @@ textarea {
     border: 1px solid #CED4DA;
     border-top: 0; }
 
+.bg-white {
+  background-color: #fff; }
+
 .bg-gray {
   background-color: #F8F9FA; }
+
+.danger {
+  color: #DC3545; }
 
 .success {
   color: #198754; }
 
 .icon-black {
   color: #212529; }
+
+.border-none {
+  border: 0px; }
 
 .border-gray-400 {
   border: 1px solid #CED4DA; }
@@ -11729,6 +11738,15 @@ textarea {
 
 .mail-img-andy-width {
   width: 15%; }
+
+.modal-info-img-width {
+  width: 30%; }
+
+.modal-info-text-width {
+  width: 70%; }
+
+.modal-add-admin-width {
+  width: 480px; }
 
 .mail-content-gap {
   gap: 8px; }
@@ -11782,6 +11800,9 @@ textarea {
       -ms-transform: scale(1.2);
           transform: scale(1.2); }
 
+.hover-underline:hover {
+  text-decoration: underline; }
+
 .profile-picture {
   width: 40px;
   height: 40px;
@@ -11790,5 +11811,25 @@ textarea {
 
 .nav {
   display: block; }
+
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.transform-80 {
+  -webkit-transform: translateX(80%);
+      -ms-transform: translateX(80%);
+          transform: translateX(80%); }
+
+.fs-18 {
+  font-size: 18px; }
+
+.pos-r {
+  position: relative; }
+
+.pos-a-page {
+  position: absolute;
+  bottom: 32px;
+  right: 32px; }
 
 /*# sourceMappingURL=all.css.map */
